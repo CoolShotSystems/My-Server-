@@ -1,8 +1,7 @@
 {
-  "name": "Custom API Simulator",
-  "description": "A simulator to demonstrate how to create custom APIs by wrapping a powerful backend like Google Gemini.",
+  "name": "Cool Shot Systems API",
+  "description": "Cool Shot Systems API, developed by Heritage Oladoye. A full-stack application using Google Gemini.",
   "requestFramePermissions": [
-    "camera",
     "microphone"
   ]
 }

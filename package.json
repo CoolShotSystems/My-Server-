@@ -1,21 +1,17 @@
 {
-  "name": "custom-api-simulator",
-  "private": true,
-  "version": "0.0.0",
+  "name": "cool-shot-systems-api",
+  "version": "1.0.0",
+  "description": "Cool Shot Systems API, developed by Heritage Oladoye. A full-stack application using Google Gemini.",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "vercel dev"
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "@google/genai": "latest",
-    "react-dom": "^19.1.1"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@google/genai": "^0.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
   }
 }
