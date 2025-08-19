@@ -5,7 +5,8 @@
   "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "build": "echo 'No build step required for static frontend.'"
   },
   "dependencies": {
     "@google/genai": "^0.15.0",
