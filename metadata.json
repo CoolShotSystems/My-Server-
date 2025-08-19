@@ -1,0 +1,8 @@
+{
+  "name": "Custom API Simulator",
+  "description": "A simulator to demonstrate how to create custom APIs by wrapping a powerful backend like Google Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
